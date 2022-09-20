@@ -10,6 +10,12 @@ public class Singltone1 {
         
         System.out.println("Hello");
         LazySinglton obj = new LazySinglton();
+        System.out.println(obj.hashCode());
+        EagerSinglton obj1= new EagerSinglton();
+        System.out.println(obj1.hashCode());
+        DoubelCheackinglazySinglton obj2 =new DoubelCheackinglazySinglton();
+        System.out.println(obj2.hashCode());
+        
         
         
     }
